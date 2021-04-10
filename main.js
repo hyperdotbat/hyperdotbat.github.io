@@ -21,8 +21,9 @@ function checkPage(){
 		desc="";
 	}
 }
-function docWrite(string){document.write(string);}
+function sss222Button(){window.open("https://hypergamesdev.github.io/sss222");}
 
+function docWrite(string){document.write(string);}
 function sleep(milliseconds) {
   const date = Date.now();
   let currentDate = null;

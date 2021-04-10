@@ -50,6 +50,25 @@ div.desc{
 	font-size:20px;
 	line-height:28px;
 }
+div.portfolio{
+	max-width:100%;
+	max-height:100%;
+}
+button.sss222Button{
+	width:600px;
+	height:320px;
+	margin-top:30px;
+	background-color:rgba(0,0,0,0);
+	background-image:url("img/sss222Thumbnail.png");
+	background-size:100% 100%;
+	border:none;
+	text-align:center;
+	font-family: "true_liesregular";
+	font-size:100%;
+	color: white;
+	letter-spacing:5px;
+	display:inline-block;
+}
 
 @font-face {
     font-family: "true_liesregular";
