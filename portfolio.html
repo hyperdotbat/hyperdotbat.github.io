@@ -11,15 +11,29 @@
 	<div class="logo"><img src="img/hgdLogoCut.png"></div>
 	<div class="sidePanelButton"><button class="sidePanelButton" onclick="buttonFunc1();"><script>docWrite(pageName1);</script></button></div>
 	<div class="sidePanelButton"><button class="sidePanelButton" onclick="buttonFunc2();"><script>docWrite(pageName2);</script></button></div>
-	<div class="sidePanelButton"><button class="sidePanelButton" onclick="buttonFunc3();"><script>docWrite(pageName3);</script></button></div>
 </div>
 <div class="pageRight"><center>
-	<script>checkPage();</script>
-	<div class="title"><script>docWrite(title);</script></div>
-	<div class="desc"><script>docWrite(desc);</script></div>
+	<div class="title"><span id="title"></span></div>
+	<div class="desc"><span id="desc"></span></div>
+	
 	<div class="portfolio">
-	<button class="sss222Button" onclick="sss222Button();"></button>
+		<list>
+		<ol><div class="portfolioElement">
+			<span class="portfolioDate" id="sss222date"></span><br><br>
+			<button class="sss222 portfolioButton"  onclick="sss222Button();"></button>
+		</div></ol>
+		<ol><div class="portfolioElement">
+			<span class="portfolioDate" id="glitchedoutDate"></span><br><br>
+			<button class="glitchedout portfolioButton" onclick="glitchedoutButton();"></button>
+		</div></ol>
+		</div></ol>
+		<ol><div class="portfolioElement">
+			<span class="portfolioDate" id="sss77date"></span><br><br>
+			<button class="sss77 portfolioButton" onclick="sss77Button();"></button>
+		</div></ol>
+		</list>
 	</div>
 </center></div>
+<script>checkPage();</script>
 </body>
 </html>

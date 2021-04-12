@@ -11,12 +11,20 @@
 	<div class="logo"><img src="img/hgdLogoCut.png"></div>
 	<div class="sidePanelButton"><button class="sidePanelButton" onclick="buttonFunc1();"><script>docWrite(pageName1);</script></button></div>
 	<div class="sidePanelButton"><button class="sidePanelButton" onclick="buttonFunc2();"><script>docWrite(pageName2);</script></button></div>
-	<div class="sidePanelButton"><button class="sidePanelButton" onclick="buttonFunc3();"><script>docWrite(pageName3);</script></button></div>
 </div>
 <div class="pageRight"><center>
+	<div class="title"><span id="title"></span></div>
+	<div class="desc"><span id="desc"></span></div>
+	
+	<div class="contacts">
+	<table class="contacts"><tr>
+	<td><button class="twitter contactsButton" onclick="twitterButton();"><span id="twitter"></span></button></td>
+	<td><button class="github contactsButton" onclick="githubButton();"><span id="github"></span></button></td>
+	<td><button class="linkedin contactsButton" onclick="linkedinButton();"><span id="linkedin"></span></button></td>
+	</tr></table>
+	</div>
+	
 	<script>checkPage();</script>
-	<div class="title"><script>docWrite(title);</script></div>
-	<div class="desc"><script>docWrite(desc);</script></div>
 </center></div>
 </body>
 </html>

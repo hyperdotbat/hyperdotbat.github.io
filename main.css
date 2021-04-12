@@ -1,16 +1,24 @@
 body{
 	background-image:url("img/hgdBg.png");
 	background-repeat:no-repeat;
-	background-size:100% 100%;
+	background-size:190% 160%;
 	font-family:"Open Sans";
 	color: white;
 }
+@font-face {
+    font-family: "true_liesregular";
+    src: url("fonts/truelies/true_lies-webfont.woff2") format('woff2'),
+         url("fonts/truelies/true_lies-webfont.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 img{max-width:100%;max-height:100%;}
-button{font-family:"Open Sans";}
+button{font-family:"Open Sans";cursor:pointer;}
 
 div.sidePanel{
 	float:left;
-	width: 170px;
+	width: 370px;
 	height:100%;
 	margin-top:-50px;
 	background-color: rgba(0,0,0,0.5);
@@ -31,7 +39,7 @@ div.pageRight{
 	border:none;
 	text-align:center;
 	font-family: "true_liesregular";
-	font-size:100%;
+	font-size:30px;
 	color: white;
 	letter-spacing:5px;
 	display:inline-block;
@@ -50,16 +58,30 @@ div.desc{
 	font-size:20px;
 	line-height:28px;
 }
+
+div.contacts{
+	margin-top:50px;
+}
+.contacts td{
+	width:50px;height:50px;
+}
+
+
 div.portfolio{
 	max-width:100%;
 	max-height:100%;
 }
-button.sss222Button{
+div.portfolioElement{
+	float:center;
+	margin-top:40px;
+	width:800px;
+	background-image:url("img/timeline.png");
+	background-position:0px -187px;
+}
+button.portfolioButton{
 	width:600px;
 	height:320px;
-	margin-top:30px;
 	background-color:rgba(0,0,0,0);
-	background-image:url("img/sss222Thumbnail.png");
 	background-size:100% 100%;
 	border:none;
 	text-align:center;
@@ -69,12 +91,13 @@ button.sss222Button{
 	letter-spacing:5px;
 	display:inline-block;
 }
+.sss222.portfolioButton{background-image:url("img/sss222Thumbnail.png");}
+.glitchedout.portfolioButton{background-image:url("img/glitcheoutThumbnail.gif");}
+.sss77.portfolioButton{background-image:url("img/sss77Thumbnail.png");}
+.portfolioDate{margin-left:50px;}
 
-@font-face {
-    font-family: "true_liesregular";
-    src: url("fonts/truelies/true_lies-webfont.woff2") format('woff2'),
-         url("fonts/truelies/true_lies-webfont.woff") format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+.contactsButton{
+	background-color:rgba(0,0,0,0);
+	background-size:100% 100%;
+	border:none;
 }
