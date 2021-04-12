@@ -12,6 +12,9 @@ the game adding a lot of new features(and the name changed to SSS77)<br><br>\
 From January 2020 I started working in Unity and I'm still<br>\
 working on my biggest project called SSS222";
 
+var pageName1="About Me";
+var pageName2="Portfolio";
+
 function buttonFunc1(){location.href='index.html';}
 function buttonFunc2(){location.href='portfolio.html';}
 
@@ -20,7 +23,7 @@ function checkPage(){
 	var page = path.split("/").pop();
 	console.log(page);
 	if(page=='portfolio.html'){
-		title="Portfolio";
+		title=pageName2;
 		desc="";
 		document.getElementById("sss222date").innerHTML="03.2021-??.????";
 		document.getElementById("glitchedoutDate").innerHTML="03.2018-11.2018";
@@ -32,6 +35,8 @@ function checkPage(){
 	}
 	document.getElementById("title").innerHTML=title;
 	document.getElementById("desc").innerHTML=desc;
+	
+	
 }
 function sss222Button(){window.open("https://hypergamesdev.github.io/sss222");}
 function sss77Button(){window.open("https://github.com/HyperGamesDev/sss77");}
