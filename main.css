@@ -31,28 +31,32 @@ div.sidePanel{
 div.pageRight{
 	float:center;
 	height:100%;
+	min-width:75%;
 	margin-top: 50px;
 }a.sidePanelButton{
 	width:85%;
-	height:6%;
+	height:4vw;
 	margin-left:6%;
 	margin-top:40%;
 	background-color:rgba(0,0,0,0);
 	background-image:url("img/button1.png");
 	background-size:100% 100%;
 	border:none;
-	//text-align:center;
+	text-align:center;
 	font-family: "true_liesregular";
 	color: white;
 	letter-spacing:5px;
 	display:inline-block;
-	position:relative;
+	//position:relative;
+	
+    vertical-align: middle;
 }
 span.sideButtonText{
-	//top:2vh;
-	right:5vw;
+	//top:4vw;
+	//right:5vw;
+	//margin: 0 auto;
 	font-size:2.5vw;
-	position:absolute;
+	position:relative;
 }
 div.title{
 	font-family: "true_liesregular";
@@ -92,7 +96,6 @@ div.portfolioElement{
 	background-position:3vw -187px;
 	background-size: 100vw 80vh;
 	background-repeat:no-repeat;
-	
 }
 .portfolioButton{
 	width:50vw;
@@ -113,4 +116,4 @@ div.portfolioElement{
 .sss222.portfolioButton{background-image:url("img/sss222Thumbnail.png");}
 .glitchedout.portfolioButton{background-image:url("img/glitcheoutThumbnail.gif");}
 .sss77.portfolioButton{background-image:url("img/sss77Thumbnail.png");}
-.portfolioDate{margin-left:50px;}
+.portfolioDate{margin-left:50px;margin-top:60vw;font-size:1vw;}

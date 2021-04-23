@@ -39,9 +39,6 @@ function checkPage(){
 	
 	
 }
-function sss222Button(){window.open("https://hypergamesdev.github.io/sss222");}
-function sss77Button(){window.open("https://github.com/HyperGamesDev/sss77");}
-function glitchedoutButton(){window.open("https://github.com/HyperGamesDev/GlitchedOut-GMS-0.1-");}
 
 /*function allmylinksButton(){window.open("https://my.bio/hypergamesdev");}
 function twitterButton(){window.open("https://twitter.com/HyperLemonPL");}
