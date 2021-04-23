@@ -1,16 +1,28 @@
 <html>
 <head>
 <title>HyperGamesDev</title>
-<link rel="icon" href="img/hgdLogo.png" />
+<link rel="icon" href="img/hgdLogo.png">
 <link rel="stylesheet" href="main.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google-site-verification" content="oYU7cmiuluxl0NsXP9vD5J041UXY13fx1b4Yu_1Qu4s" />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:autoSizeTextType="uniform"
+    android:autoSizeMinTextSize="12sp"
+    android:autoSizeMaxTextSize="100sp"
+    android:autoSizeStepGranularity="2sp" />
 <script src="main.js">
 </script>
+
 </head>
 <body>
 <div class="sidePanel">
 	<div class="logo"><img src="img/hgdLogoCut.png"></div>
-	<div class="sidePanelButton"><button class="sidePanelButton" onclick="buttonFunc1();"><script>docWrite(pageName1);</script></button></div>
-	<div class="sidePanelButton"><button class="sidePanelButton" onclick="buttonFunc2();"><script>docWrite(pageName2);</script></button></div>
+	<div class="sidePanelButton"><a class="sidePanelButton" href="index.html"><span class="sideButtonText" id="sideButtonText"><script>docWrite(pageName1);</script></span></a></div>
+	<div class="sidePanelButton"><a class="sidePanelButton" href="portfolio.html"><span class="sideButtonText" id="sideButtonText"><script>docWrite(pageName2);</script></span></a></div>
 </div>
 <div class="pageRight"><center>
 	<div class="title"><span id="title"></span></div>
@@ -18,9 +30,10 @@
 	
 	<div class="contacts">
 	<table class="contacts"><tr>
-	<td><button class="twitter contactsButton" onclick="twitterButton();"><span id="twitter"></span></button></td>
-	<td><button class="github contactsButton" onclick="githubButton();"><span id="github"></span></button></td>
-	<td><button class="linkedin contactsButton" onclick="linkedinButton();"><span id="linkedin"></span></button></td>
+	<td><a class="allmylinks contactsButton" href="https://my.bio/hypergamesdev"><span id="allmylinks"></span></a></td>
+	<td><a class="twitter contactsButton" href="https://twitter.com/HyperLemonPL"><span id="twitter"></span></a></td>
+	<td><a class="github contactsButton" href="https://github.com/hypergamesdev"><span id="github"></span></a></td>
+	<td><a class="linkedin contactsButton" href="https://linkedin.com/in/hypergamesdev"><span id="linkedin"></span></a></td>
 	</tr></table>
 	</div>
 	

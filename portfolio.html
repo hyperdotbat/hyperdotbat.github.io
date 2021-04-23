@@ -1,16 +1,20 @@
 <html>
 <head>
 <title>HyperGamesDev</title>
-<link rel="icon" href="img/hgdLogo.png" />
+<link rel="icon" href="img/hgdLogo.png">
 <link rel="stylesheet" href="main.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="main.js">
 </script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 <div class="sidePanel">
 	<div class="logo"><img src="img/hgdLogoCut.png"></div>
-	<div class="sidePanelButton"><button class="sidePanelButton" onclick="buttonFunc1();"><script>docWrite(pageName1);</script></button></div>
-	<div class="sidePanelButton"><button class="sidePanelButton" onclick="buttonFunc2();"><script>docWrite(pageName2);</script></button></div>
+	<div class="sidePanelButton"><a class="sidePanelButton" href="index.html"><span class="sideButtonText" id="sideButtonText"><script>docWrite(pageName1);</script></span></a></div>
+	<div class="sidePanelButton"><a class="sidePanelButton" href="portfolio.html"><span class="sideButtonText"id="sideButtonText"><script>docWrite(pageName2);</script></span></a></div>
 </div>
 <div class="pageRight"><center>
 	<div class="title"><span id="title"></span></div>
@@ -18,18 +22,18 @@
 	
 	<div class="portfolio">
 		<list>
-		<ol><div class="portfolioElement">
+		<ol><div class="portfolioElement" id="sss222">
 			<span class="portfolioDate" id="sss222date"></span><br><br>
-			<button class="sss222 portfolioButton"  onclick="sss222Button();"></button>
+			<span class="sss222 portfolioButton"  onclick="sss222Button();"></span>
 		</div></ol>
-		<ol><div class="portfolioElement">
+		<ol><div class="portfolioElement" id="glitchedout">
 			<span class="portfolioDate" id="glitchedoutDate"></span><br><br>
-			<button class="glitchedout portfolioButton" onclick="glitchedoutButton();"></button>
+			<span class="glitchedout portfolioButton" onclick="glitchedoutButton();"></span>
 		</div></ol>
 		</div></ol>
-		<ol><div class="portfolioElement">
+		<ol><div class="portfolioElement" id="sss77">
 			<span class="portfolioDate" id="sss77date"></span><br><br>
-			<button class="sss77 portfolioButton" onclick="sss77Button();"></button>
+			<span class="sss77 portfolioButton" onclick="sss77Button();"></span>
 		</div></ol>
 		</list>
 	</div>

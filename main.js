@@ -29,6 +29,7 @@ function checkPage(){
 		document.getElementById("glitchedoutDate").innerHTML="03.2018-11.2018";
 		document.getElementById("sss77date").innerHTML="08.2017-12.2019";
 	}else{
+		document.getElementById("allmylinks").innerHTML="<img src='img/allmylinks.png'>";
 		document.getElementById("twitter").innerHTML="<img src='img/twitter.png'>";
 		document.getElementById("github").innerHTML="<img src='img/github.png'>";
 		document.getElementById("linkedin").innerHTML="<img src='img/linkedin.png'>";
@@ -42,10 +43,17 @@ function sss222Button(){window.open("https://hypergamesdev.github.io/sss222");}
 function sss77Button(){window.open("https://github.com/HyperGamesDev/sss77");}
 function glitchedoutButton(){window.open("https://github.com/HyperGamesDev/GlitchedOut-GMS-0.1-");}
 
+/*function allmylinksButton(){window.open("https://my.bio/hypergamesdev");}
 function twitterButton(){window.open("https://twitter.com/HyperLemonPL");}
 function githubButton(){window.open("https://github.com/HyperGamesDev");}
-function linkedinButton(){window.open("https://linkedin.com/in/hypergamesdev");}
+function linkedinButton(){window.open("https://linkedin.com/in/hypergamesdev");}*/
 
+window.addEventListener('load', () => {
+  let element = document.getElementsByTagName('button')[0]
+  element.addEventListener('mousedown', (event) => {
+    event.target.setAttribute('href', event.target.getAttribute('other'))
+  })
+})
 
 function docWrite(string){document.write(string);}
 function sleep(milliseconds) {
