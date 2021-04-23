@@ -1,9 +1,7 @@
 html{min-height: 100vh;position:relative;}
 body{
 	height: 100vh;
-	background-image:url("img/hgdBg.png");
-	background-repeat:no-repeat;
-	background-size:190% 160%;
+	background: url(img/hgdBg.png) no-repeat center center fixed; 
 	font-family:"Open Sans";
 	color: white;
 }
@@ -19,25 +17,29 @@ a{text-decoration: none;}
 img{max-width:100%;max-height:100%;}
 button{font-family:"Open Sans";cursor:pointer;}
 
-div.sidePanel{
-	float:left;
-	width: 40vw;
-	height: 100%;
-	max-width:25%;
-	margin-top:-50px;
+div.upperPanel{
+	float:top;
+	width: 100%;
+	height: 20vw;
+	margin-top:-20px;
 	background-color: rgba(0,0,0,0.5);
 	
-}div.logo{height: 25%;}
+}div.logo{float:left;height: 20vw;}
 div.pageRight{
-	float:center;
+	//float:center;
 	height:100%;
-	min-width:75%;
+	//max-width:75%;
 	margin-top: 50px;
-}a.sidePanelButton{
-	width:85%;
+}div.upperPanelButton{
+	float:left;
+	width:20%;
 	height:4vw;
 	margin-left:6%;
-	margin-top:40%;
+	margin-top:10%;
+}a.upperPanelButton{
+	//float:left;
+	width:120%;
+	height:120%;
 	background-color:rgba(0,0,0,0);
 	background-image:url("img/button1.png");
 	background-size:100% 100%;
@@ -51,8 +53,8 @@ div.pageRight{
 	
     vertical-align: middle;
 }
-span.sideButtonText{
-	//top:4vw;
+span.upperButtonText{
+	top:1vw;
 	//right:5vw;
 	//margin: 0 auto;
 	font-size:2.5vw;

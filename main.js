@@ -40,18 +40,6 @@ function checkPage(){
 	
 }
 
-/*function allmylinksButton(){window.open("https://my.bio/hypergamesdev");}
-function twitterButton(){window.open("https://twitter.com/HyperLemonPL");}
-function githubButton(){window.open("https://github.com/HyperGamesDev");}
-function linkedinButton(){window.open("https://linkedin.com/in/hypergamesdev");}*/
-
-window.addEventListener('load', () => {
-  let element = document.getElementsByTagName('button')[0]
-  element.addEventListener('mousedown', (event) => {
-    event.target.setAttribute('href', event.target.getAttribute('other'))
-  })
-})
-
 function docWrite(string){document.write(string);}
 function sleep(milliseconds) {
   const date = Date.now();
