@@ -41,7 +41,7 @@ div.pageRight{
 	width:120%;
 	height:120%;
 	background-color:rgba(0,0,0,0);
-	background-image:url("img/button1.png");
+	//background-image:url("img/button1.png");
 	background-size:100% 100%;
 	border:none;
 	text-align:center;
