@@ -8,13 +8,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">!-->
 <meta name="google-site-verification" content="oYU7cmiuluxl0NsXP9vD5J041UXY13fx1b4Yu_1Qu4s">
 <meta name="google-site-verification" content="qqrm60ieT0T1AOY9zjxMMl7aTKWiBGUhPGim344G_uo">
-<TextView
-    android:layout_width="match_parent"
-    android:layout_height="200dp"
-    android:autoSizeTextType="uniform"
-    android:autoSizeMinTextSize="12sp"
-    android:autoSizeMaxTextSize="100sp"
-    android:autoSizeStepGranularity="2sp" />
 <script src="main.js">
 </script>
 
@@ -22,8 +15,8 @@
 <body>
 <div class="upperPanel">
 	<div class="logo"><img src="img/hgdLogoCut.png"></div>
-	<div class="upperPanelButton"><a class="upperPanelButton" href="index.html"><span class="upperButtonText" id="upperButtonText"><script>docWrite(pageName1);</script></span></a></div>
-	<div class="upperPanelButton"><a class="upperPanelButton" href="portfolio.html"><span class="upperButtonText" id="upperButtonText"><script>docWrite(pageName2);</script></span></a></div>
+	<div class="upperPanelButton"><a class="upperPanelButton" id="index"><span class="upperButtonText" id="upperButtonText"><script>docWrite(pageName1);</script></span></a></div>
+	<div class="upperPanelButton"><a class="upperPanelButton" id="portfolio"><span class="upperButtonText" id="upperButtonText"><script>docWrite(pageName2);</script></span></a></div>
 	<!--<div class="sss222Logo"><img src="img/sss222Logo.png"></div>!-->
 </div>
 <div class="pageRight"><center>
@@ -32,11 +25,11 @@
 	
 	<div class="contacts">
 	<table class="contacts"><tr>
-	<td><a class="allmylinks contactsButton" href="https://my.bio/hypergamesdev"><span id="allmylinks"></span></a></td>
-	<td><a class="twitter contactsButton" href="https://twitter.com/HyperLemonPL"><span id="twitter"></span></a></td>
-	<td><a class="github contactsButton" href="https://github.com/hypergamesdev"><span id="github"></span></a></td>
-	<td><a class="patreon contactsButton" href="https://patreon.com/HyperGamesDev"><span id="patreon"></span></a></td>
-	<td><a class="linkedin contactsButton" href="https://linkedin.com/in/hypergamesdev"><span id="linkedin"></span></a></td>
+	<td><a class="allmylinks contactsButton" id="allmylinks" target="_blank"><span id="allmylinks"></span></a></td>
+	<td><a class="twitter contactsButton" id="twitter" target="_blank"><span id="twitter"></span></a></td>
+	<td><a class="github contactsButton" id="github" target="_blank"><span id="github"></span></a></td>
+	<td><a class="patreon contactsButton" id="patreon" target="_blank"><span id="patreon"></span></a></td>
+	<td><a class="linkedin contactsButton" id="linkedin" target="_blank"><span id="linkedin"></span></a></td>
 	</tr></table>
 	</div>
 	
