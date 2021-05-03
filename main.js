@@ -2,7 +2,7 @@ var title="About Me";
 var desc="My name's Maciej, but I prefer to be called Hyper<br>\
 Im a 17 year old developer(as of 2021)<br>\
 that found a passion of creating games<br>\
-back in 2017 when I was a 14 year old<br><br>\
+back in 2017 when I was 14 years old<br><br>\
 I created my first game in GMS following a tutorial<br>\
 trying to change some stuff on the way as I learned.<br>\
 I published my first game on 31st of August 2017<br>\
@@ -32,6 +32,7 @@ function checkPage(){
 		document.getElementById("allmylinks").innerHTML="<img src='img/allmylinks.png'>";
 		document.getElementById("twitter").innerHTML="<img src='img/twitter.png'>";
 		document.getElementById("github").innerHTML="<img src='img/github.png'>";
+		document.getElementById("patreon").innerHTML="<img src='img/patreon.png'>";
 		document.getElementById("linkedin").innerHTML="<img src='img/linkedin.png'>";
 	}
 	document.getElementById("title").innerHTML=title;
