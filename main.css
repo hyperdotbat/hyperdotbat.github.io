@@ -6,6 +6,7 @@ body{
 	color: white;
 }
 a{text-decoration: none;}
+a:link{color:yellow;}
 a:visited{color:yellow;}
 a:hover{color:red;}
 @font-face {
