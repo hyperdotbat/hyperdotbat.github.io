@@ -6,6 +6,8 @@ body{
 	color: white;
 }
 a{text-decoration: none;}
+a:visited{color:yellow;}
+a:hover{color:red;}
 @font-face {
     font-family: "true_liesregular";
     src: url("fonts/truelies/true_lies-webfont.woff2") format('woff2'),

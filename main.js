@@ -10,7 +10,7 @@ called Best Space Shooter 2017(I know, I know..)<br>\
 then up till December 2019 I pushed through and updated<br>\
 the game adding a lot of new features(and the name changed to SSS77)<br><br>\
 From January 2020 I started working in Unity and I'm still<br>\
-working on my biggest project called <a href='https://hypergamesdev.github.io/sss222'>SSS222</a>";
+working on my biggest project called <a href='https://hypergamesdev.github.io/sss222' target='_blank'>SSS222</a>";
 
 var pageName1="About Me";
 var pageName2="Portfolio";
@@ -37,8 +37,10 @@ function checkPage(){
 		document.getElementById("twitter").href="https://twitter.com/HyperLemonPL";
 		document.getElementById("github").innerHTML="<img src='img/github.png'>";
 		document.getElementById("github").href="https://github.com/hypergamesdev";
-		document.getElementById("patreon").innerHTML="<img src='img/patreon.png'>";
-		document.getElementById("patreon").href="https://patreon.com/HyperGamesDev";
+		//document.getElementById("patreon").innerHTML="<img src='img/patreon.png'>";
+		//document.getElementById("patreon").href="https://patreon.com/HyperGamesDev";
+		document.getElementById("kofi").innerHTML="<img src='img/kofi.png'>";
+		document.getElementById("kofi").href="https://buymeacoffee.com/HyperGamesDev";
 		document.getElementById("linkedin").innerHTML="<img src='img/linkedin.png'>";
 		document.getElementById("linkedin").href="https://linkedin.com/in/hypergamesdev";
 	}
