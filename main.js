@@ -25,7 +25,7 @@ function checkPage(){
 		title=pageName2;
 		desc="";
 		document.getElementById("sss222Button").href="https://hypergamesdev.github.io/sss222";
-		document.getElementById("sss222date").innerHTML="03.2021-??.????";
+		document.getElementById("sss222date").innerHTML="03.2020-??.????";
 		document.getElementById("glitchedoutButton").href="https://github.com/HyperGamesDev/GlitchedOut-GMS-0.1-";
 		document.getElementById("glitchedoutDate").innerHTML="03.2018-11.2018";
 		document.getElementById("sss77Button").href="https://github.com/HyperGamesDev/sss77";
