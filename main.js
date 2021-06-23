@@ -25,11 +25,11 @@ function checkPage(){
 		title=pageName2;
 		desc="";
 		document.getElementById("sss222Button").href="https://hypergamesdev.github.io/sss222";
-		document.getElementById("sss222date").innerHTML="03.2020-??.????";
+		document.getElementById("sss222date").innerHTML="03.2020 - ??.????";
 		document.getElementById("glitchedoutButton").href="https://github.com/HyperGamesDev/GlitchedOut-GMS-0.1-";
-		document.getElementById("glitchedoutDate").innerHTML="03.2018-11.2018";
+		document.getElementById("glitchedoutDate").innerHTML="03.2018 - 11.2018";
 		document.getElementById("sss77Button").href="https://github.com/HyperGamesDev/sss77";
-		document.getElementById("sss77date").innerHTML="08.2017-12.2019";
+		document.getElementById("sss77date").innerHTML="08.2017 - 12.2019";
 	}else{
 		document.getElementById("allmylinks").innerHTML="<img src='img/allmylinks.png'>";
 		document.getElementById("allmylinks").href="https://my.bio/hypergamesdev";
