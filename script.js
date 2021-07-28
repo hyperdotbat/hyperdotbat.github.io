@@ -9,8 +9,8 @@ I published my first game on 31st of August 2017<br>\
 called Best Space Shooter 2017(I know, I know..)<br>\
 then up till December 2019 I pushed through and updated<br>\
 the game adding a lot of new features(and the name changed to SSS77)<br><br>\
-From January 2020 I started working in Unity and I'm still<br>\
-working on my biggest project called <a href='https://hypergamesdev.github.io/sss222' target='_blank'>SSS222</a>";
+From January 2020 I started working in Unity and still am<br>\
+on my biggest project called <a href='https://hypergamesdev.github.io/sss222' target='_blank'>SSS222</a>";
 
 var pageName1="About Me";
 var pageName2="Portfolio";
