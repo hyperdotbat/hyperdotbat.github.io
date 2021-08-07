@@ -48,15 +48,18 @@ function checkPage(){
 		document.getElementById("linkedin").innerHTML="<img src='img/linkedin.png'>";
 		document.getElementById("linkedin").href="https://linkedin.com/in/hypergamesdev";
 		document.getElementById("cv_EN").innerHTML="CV_EN";
-		document.getElementById("cv_EN").href="img/hyperCV_EN.png";
+		document.getElementById("cv_EN").href="redirects/cv_EN.html";
 		document.getElementById("cv_PL").innerHTML="CV_PL";
-		document.getElementById("cv_PL").href="img/hyperCV_PL.png";
+		document.getElementById("cv_PL").href="redirects/cv_PL.html";
 	}
 	document.getElementById("title").innerHTML=title;
 	document.getElementById("desc").innerHTML=desc;
 	
 	
 }
+
+function redirect_cvEN(){window.open("https://raw.githubusercontent.com/HyperGamesDev/HyperGamesDev/master/Grafika%20Social/CV-HyperGamesDev_EN.png","_self");}
+function redirect_cvPL(){window.open("https://raw.githubusercontent.com/HyperGamesDev/HyperGamesDev/master/Grafika%20Social/CV-HyperGamesDev_PL.png","_self");}
 
 function docWrite(string){document.write(string);}
 function sleep(milliseconds) {
