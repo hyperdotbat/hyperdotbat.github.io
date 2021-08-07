@@ -1,16 +1,16 @@
 var title="About Me";
-var desc="My name's Maciej, but I prefer to be called Hyper<br>\
-Im a 17 year old developer(as of 2021)<br>\
-that found a passion of creating games<br>\
-back in 2017 when I was 14 years old<br><br>\
+var desc="My name's Maciej, but I prefer to be called <b><i>Hyper</i></b><br>\
+Im an 18 year old developer(as of 2021)<br>\
+that found the passion of creating games<br>\
+at the age of 14 back in 2017<br><br>\
 I created my first game in GMS following a tutorial<br>\
 trying to change some stuff on the way as I learned.<br>\
 I published my first game on 31st of August 2017<br>\
-called Best Space Shooter 2017(I know, I know..)<br>\
+called <i>Best Space Shooter 2017</i>(I know, I know..)<br>\
 then up till December 2019 I pushed through and updated<br>\
 the game adding a lot of new features(and the name changed to SSS77)<br><br>\
 From January 2020 I started working in Unity and still am<br>\
-on my biggest project called <a href='https://hypergamesdev.github.io/sss222' target='_blank'>SSS222</a>";
+on my biggest project called <a href='https://hypergamesdev.github.io/sss222' target='_blank'><b>SSS222</b></a>";
 
 var pageName1="About Me";
 var pageName2="Portfolio";
@@ -47,6 +47,10 @@ function checkPage(){
 		document.getElementById("kofi").href="https://buymeacoffee.com/HyperGamesDev";
 		document.getElementById("linkedin").innerHTML="<img src='img/linkedin.png'>";
 		document.getElementById("linkedin").href="https://linkedin.com/in/hypergamesdev";
+		document.getElementById("cv_EN").innerHTML="CV_EN";
+		document.getElementById("cv_EN").href="img/hyperCV_EN.png";
+		document.getElementById("cv_PL").innerHTML="CV_PL";
+		document.getElementById("cv_PL").href="img/hyperCV_PL.png";
 	}
 	document.getElementById("title").innerHTML=title;
 	document.getElementById("desc").innerHTML=desc;
