@@ -46,8 +46,8 @@ function checkPage(){
 			document.getElementById("planetoidDate").innerHTML="06.2020 - ??.????";
 	}else{
 		if(document.getElementById("allmylinks")!=null)
-			document.getElementById("allmylinks").innerHTML="<img src='img/allmylinks.png'>";
-			document.getElementById("allmylinks").href="https://my.bio/hypergamesdev";
+			document.getElementById("allmylinks").innerHTML="<img src='img/carrd.png'>";
+			document.getElementById("allmylinks").href="https://hypergamesdev.carrd.co";
 		}if(document.getElementById("twitter")!=null){
 			document.getElementById("twitter").innerHTML="<img src='img/twitter.png'>";
 			document.getElementById("twitter").href="https://twitter.com/HyperLemonPL";
