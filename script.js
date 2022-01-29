@@ -1,16 +1,20 @@
 var title="About Me";
-var desc="My name's Maciej, but I prefer to be called <b><i>Hyper</i></b><br>\
-Im an 18 year old developer<br>\
+var desc="Hey Im <b>Hyper!</b><br>\
+An 18 year old developer<br>\
 that found the passion of creating games<br>\
 at the age of 14 back in 2017<br><br>\
+\
 I created my first game in GMS following a tutorial<br>\
 trying to change some stuff on the way as I learned.<br>\
 I published my first game on 31st of August 2017<br>\
-called <i>Best Space Shooter 2017</i>(I know, I know..)<br>\
+called <i>Best Space Shooter 2017</i> (lmao I know)<br>\
 then up till December 2019 I pushed through and updated<br>\
-the game adding a lot of new features(and the name changed to SSS77)<br><br>\
+it adding a lot of new features (and the name changed to <i>SSS77</i>)<br><br>\
+\
 From January 2020 I started working in Unity and still am<br>\
-on my biggest project called <a href='https://hypergamesdev.github.io/sss222' target='_blank'><b>SSS222</b></a>";
+on my biggest project called <a href='https://hypergamesdev.github.io/sss222' target='_blank'><b>SSS222</b></a><br><br>\
+Im also the founder of <a href='https://hyperlemonstudios.github.io'>HyperLemonStudios</a>\
+";
 
 var pageName1="About Me";
 var pageName2="Portfolio";
@@ -39,7 +43,7 @@ function checkPage(){
 		if(document.getElementById("sss77Button")!=null)
 			document.getElementById("sss77Button").href="https://github.com/HyperGamesDev/sss77";
 		if(document.getElementById("sss77Date")!=null)
-			document.getElementById("sss77Date").innerHTML="08.2017 - 12.2019";
+			document.getElementById("sss77Date").innerHTML="07.2017 - 12.2019";
 		if(document.getElementById("planetoidButton")!=null)
 			document.getElementById("planetoidButton").href="https://github.com/HyperGamesDev/mc-planetoids";
 		if(document.getElementById("planetoidDate")!=null)
@@ -47,10 +51,10 @@ function checkPage(){
 	}else{
 		if(document.getElementById("allmylinks")!=null)
 			document.getElementById("allmylinks").innerHTML="<img src='img/carrd.png'>";
-			document.getElementById("allmylinks").href="https://hypergamesdev.carrd.co";
+			document.getElementById("allmylinks").href="https://hyperr.carrd.co";
 		}if(document.getElementById("twitter")!=null){
 			document.getElementById("twitter").innerHTML="<img src='img/twitter.png'>";
-			document.getElementById("twitter").href="https://twitter.com/HyperLemonPL";
+			document.getElementById("twitter").href="https://twitter.com/HyperrGamesDev";
 		}if(document.getElementById("github")!=null){
 			document.getElementById("github").innerHTML="<img src='img/github.png'>";
 			document.getElementById("github").href="https://github.com/hypergamesdev";
