@@ -7,16 +7,8 @@ body{min-height:100%;
 }
 a{text-decoration:none;color:rgba(26,216,163,1);}
 a:hover{color:rgba(140,255,240,1);}
-@font-face{
-    font-family: "TrueLies";
-    src: url("fonts/Impact/true_lies-webfont.woff2") format('woff2'),
-         url("fonts/Impact/true_lies-webfont.woff") format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
 img{max-width:100%;max-height:100%;}
-button{font-family:"Open Sans", "Arial";cursor:pointer;}
+button{font-family:"Arial", "Open Sans";cursor:pointer;}
 
 .menu{
 	width:100%;
@@ -24,11 +16,9 @@ button{font-family:"Open Sans", "Arial";cursor:pointer;}
 	margin-top:-20px;
 	background-color:rgba(20,26,56,1);
 }.logo{float:left;height:14vw;}
-//.sss222Logo{float:right;height:14vw;width:30vw;margin-left:10%;vertical-align:middle;}
 .content{
-	//float:center;
 	height:100%;
-	//max-width:75%;
+	/*max-width:75%;*/
 	margin-top: 50px;
 }
 
@@ -39,7 +29,7 @@ button{font-family:"Open Sans", "Arial";cursor:pointer;}
 	margin-left:13%;
 	margin-top:6%;
 }a.menuButton{
-	//float:left;
+	/*float:left;*/
 	width:120%;
 	height:120%;
 	background-color:rgba(0,0,0,0);
@@ -50,7 +40,7 @@ button{font-family:"Open Sans", "Arial";cursor:pointer;}
 	color:white;
 	letter-spacing:5px;
 	display:inline-block;
-	//position:relative;
+	/*position:relative;*/
 	
     vertical-align: middle;
 }
@@ -59,8 +49,8 @@ a.menuButton:hover{
 }
 span.menuButtonText{
 	top:1vw;
-	//right:5vw;
-	//margin: 0 auto;
+	/*right:5vw;*/
+	/*margin: 0 auto;*/
 	font-size:2.5vw;
 	position:relative;
 }
@@ -115,8 +105,8 @@ span.menuButtonText{
 .footer{
 	margin-top:4vmin;
 	height:2%;
-	//background-color: rgb(49,9,49);
-	//background-size:100% 100%;
+	/*background-color: rgb(49,9,49);*/
+	/*background-size:100% 100%;*/
 	color: white;
 }
 
@@ -124,4 +114,14 @@ span.menuButtonText{
 	font-family:"Impact";
 	letter-spacing:5px;
 	color:#8cfff0;
+}
+
+
+
+@font-face{
+    font-family: "TrueLies";
+    src: url("fonts/Impact/true_lies-webfont.woff2") format('woff2'),
+         url("fonts/Impact/true_lies-webfont.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
 }

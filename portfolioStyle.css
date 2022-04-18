@@ -29,15 +29,15 @@
 }
 .portfolioElement{
 	width:26vmax;
-	//min-width:30vw;
+	/*min-width:30vw;*/
 	max-width:40vmax;
 	height:14vmax;
 	max-height:20vmax;
-	//float:center;
+	/*float:center;*/
 	margin-top:80px;
-	//width:100%;
-	//min-width:100px;
-	//padding-left:10%;
+	/*width:100%;*/
+	/*min-width:100px;*/
+	/*padding-left:10%;*/
 	background-image: url(img/timeline.png);
 	background-position:-16vmax -20.5vmin;
 	background-size: 86vmax 80vmin;
@@ -55,8 +55,12 @@
 .portfolioDate{font-size:1.4vmax;}
 .sss222.portfolioButton{background-image:url("img/sss222Thumbnail.png");}
 .glitchout.portfolioButton{background-image:url("img/glitchoutThumbnail.gif");}
+.driftake.gamesButton{background-image:url("img/driftakeThumbnail.png");}
+.rustyropes.gamesButton{background-image:url("img/rustyropesThumbnail.png");}
+
 .glitchedout.portfolioButton{background-image:url("img/glitchedoutThumbnailBlack.png");}
 .sss77.portfolioButton{background-image:url("img/sss77Thumbnail.png");}
+
 .planetoid.portfolioButton{background-image:url("img/planetoids.png");}
 
 
