@@ -24,7 +24,7 @@
 	font-family: "Arial";
 	letter-spacing:5px;
 	font-size:25px;
-	color:green;
+	color:#f80000;
 	margin-bottom:-70px;
 }
 .portfolioElement{
@@ -61,6 +61,7 @@
 .glitchedout.portfolioButton{background-image:url("img/glitchedoutThumbnailBlack.png");}
 .sss77.portfolioButton{background-image:url("img/sss77Thumbnail.png");}
 
+.rockyPaperSurv.portfolioButton{background-image:url("img/rockyPaperSurv.png");}
 .planetoid.portfolioButton{background-image:url("img/planetoids.png");}
 
 

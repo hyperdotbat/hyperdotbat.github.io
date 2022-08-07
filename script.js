@@ -1,10 +1,10 @@
 var title="About Me";
 var desc="Hey Im <b>Hyper!</b><br>\
-An 18 year old developer<br>\
+A 19 year old developer<br>\
 that found the passion of creating games<br>\
 at the age of 14 back in 2017<br><br>\
 \
-I created my first game in GMS following a HeartBest tutorial<br>\
+I created my first game in GMS following a HeartBeast tutorial<br>\
 trying to change some stuff on the way as I learned.<br>\
 I published it on 31st of August 2017<br>\
 called <i>Best Space Shooter 2017</i> (lmao I know)<br>\
@@ -46,6 +46,8 @@ setTimeout(function Setup(){
 		$("#sss77Button").attr("href","https://github.com/HyperGamesDev/sss77");
 		$("#sss77Date").html("07.2017 - 12.2019");
 
+		$("#rockyPaperSurvButton").attr("href","https://hypergamesdev.github.io/rocky-paper-survivors/");
+		$("#rockyPaperSurvDate").html("03.2022 - ??.????");
 		$("#planetoidButton").attr("href","https://github.com/HyperGamesDev/mc-planetoids");
 		$("#planetoidDate").html("06.2020 - ??.????");
 	}else{
