@@ -2,68 +2,78 @@
 <head>
 <title>HyperGamesDev</title>
 <link rel="icon" href="img/HGD_awatar.png">
-<link rel="stylesheet" href="mainStyle.css">
-<link rel="stylesheet" href="portfolioStyle.css">
+<link rel="stylesheet" href="style.css">
 <meta charset="UTF-8">
 <!--<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
 <meta name="viewport" content="width=device-width, initial-scale=1">!-->
+<!--<script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script> 
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>!-->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="script.js"></script>
+<script src="./script.js"></script>
 </head>
 <body>
 <div class="menu">
-	<div class="logo"><img src="img/HGD_watermark.png"></div>
-	<div class="menuButton"><a class="menuButton" id="index"><span class="menuButtonText"></span></a></div>
-	<div class="menuButton"><a class="menuButton" id="portfolio"><span class="menuButtonText"></span></a></div>
+	<Anim class="SlideInFromTop"><div class="logo"><img src="img/HGD_watermark.png"></div></Anim>
+	<div class="menuButton"><a class="menuButton" id="indexButton"><span class="menuButtonText">About Me</span></a></div>
+	<div class="menuButton"><a class="menuButton" id="portfolioButton"><span class="menuButtonText">Portfolio</span></a></div>
+	<div class="contacts">
+		<Anim class="FadeInFromBelow-1"><div class="contactCell"><a class="allmylinks contactsButton" id="allmylinks" target="_blank"><span id="allmylinks"></span></a></div></Anim>
+		<Anim class="FadeInFromBelow-2"><div class="contactCell"><a class="twitter contactsButton" id="twitter" target="_blank"><span id="twitter"></span></a></div></Anim>
+		<Anim class="FadeInFromBelow-3"><div class="contactCell"><a class="github contactsButton" id="github" target="_blank"><span id="github"></span></a></div></Anim>
+		<Anim class="FadeInFromBelow-4"><div class="contactCell"><a class="patreon contactsButton" id="patreon" target="_blank"><span id="patreon"></span></a></div></Anim>
+		<Anim class="FadeInFromBelow-5"><div class="contactCell"><a class="kofi contactsButton" id="kofi" target="_blank"></a></div></Anim>
+		<Anim class="FadeInFromBelow-6"><div class="contactCell"><a class="linkedin contactsButton" id="linkedin" target="_blank"><span id="linkedin"></span></a></div></Anim>
+		<Anim class="FadeInFromBelow-7"><div class="contactCell"><a class="cv_EN contactsButton" id="cv_EN" target="_blank"><span id="cv_EN"></span></a></div></Anim>
+		<Anim class="FadeInFromBelow-8"><div class="contactCell"><a class="cv_PL contactsButton" id="cv_PL" target="_blank"><span id="cv_PL"></span></a></div></Anim>
+	</div>
 </div>
 <div class="content"><center>
-	<div class="title"><span id="title"></span></div>
-	<div class="desc"><span id="desc"></span></div>
+	<div class="title"><span id="title">Portfolio</span></div>
 	
 	<div class="portfolio">
 		<div class="portfolioRow Unity"> 
-			<div class="portfolioTitle">(New) Unity</div>
+			<Anim class="FadeInFromBelow-1"><div class="portfolioTitle">(New) Unity</div></Anim>
 			<ol class="portfolioList">
-			<li><div class="portfolioElement" id="sss222">
+			<li><Anim class="FadeInFromBelow-1"><div class="portfolioElement" id="sss222">
 				<span class="portfolioDate" id="sss222date"></span><br><br>
 				<a id="sss222Button" target="_blank"><span class="sss222 portfolioButton"></span></a>
-			</div></li>
-			<li><div class="portfolioElement" id="glitchout">
+			</Anim></div></li>
+			<li><Anim class="FadeInFromBelow-2"><div class="portfolioElement" id="glitchout">
 				<span class="portfolioDate" id="glitchoutDate"></span><br><br>
 				<a id="glitchoutButton" target="_blank"><span class="glitchout portfolioButton"></span></a>
-			</div></li>
+			</Anim></div></li>
 			
 			</ol>
 		</div>
 		<div class="portfolioRow GMS">
-			<div class="portfolioTitle">(Old) GMS</div>
+			<Anim class="FadeInFromBelow-3"><div class="portfolioTitle">(Old) GMS</div></Anim>
 			<ol class="portfolioList">
-			<li><div class="portfolioElement" id="glitchedout">
+			<li><Anim class="FadeInFromBelow-3"><div class="portfolioElement" id="glitchedout">
 				<span class="portfolioDate" id="glitchedoutDate"></span><br><br>
 				<a id="glitchedoutButton" target="_blank"><span class="glitchedout portfolioButton"></span></a>
-			</div></li>
-			<li><div class="portfolioElement" id="sss77">
+			</Anim></div></li>
+			<li><Anim class="FadeInFromBelow-4"><div class="portfolioElement" id="sss77">
 				<span class="portfolioDate" id="sss77Date"></span><br><br>
 				<a id="sss77Button" target="_blank"><span class="sss77 portfolioButton"></span></a>
-			</div></li>
+			</Anim></div></li>
 			</ol>
 		</div>
 		<div class="portfolioRow Other">
-			<div class="portfolioTitle">Other</div>
+			<Anim class="FadeInFromBelow-5"><div class="portfolioTitle">Other</div></Anim>
 			<ol class="portfolioList">
-			<li><div class="portfolioElement" id="rockyPaperSurv">
+			<li><Anim class="FadeInFromBelow-5"><div class="portfolioElement" id="rockyPaperSurv">
 				<span class="portfolioDate" id="rockyPaperSurvDate"></span><br><br>
 				<a id="rockyPaperSurvButton" target="_blank"><span class="rockyPaperSurv portfolioButton"></span></a>
-			</div></li>
-			<li><div class="portfolioElement" id="planetoid">
+			</Anim></div></li>
+			<li><Anim class="FadeInFromBelow-6"><div class="portfolioElement" id="planetoid">
 				<span class="portfolioDate" id="planetoidDate"></span><br><br>
 				<a id="planetoidButton" target="_blank"><span class="planetoid portfolioButton"></span></a>
-			</div></li>
+			</Anim></div></li>
 			</ol>
 		</div>
 	</div>
 	
-	<div class="footer"><footer></footer></div>
+	<div class="footer"><footer>HyperGamesDev® | HyperLemonStudios® | Maciej Krefft | 2017-2022</footer></div>
 </center></div>
 </body>
 </html>

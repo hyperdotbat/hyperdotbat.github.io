@@ -2,26 +2,60 @@
 <head>
 <title>HyperGamesDev</title>
 <link rel="icon" href="img/HGD_awatar.png">
-<link rel="stylesheet" href="mainStyle.css">
+<link rel="stylesheet" href="style.css">
 <meta charset="UTF-8">
 <!--<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
 <meta name="viewport" content="width=device-width, initial-scale=1">!-->
 <meta name="google-site-verification" content="oYU7cmiuluxl0NsXP9vD5J041UXY13fx1b4Yu_1Qu4s">
 <meta name="google-site-verification" content="qqrm60ieT0T1AOY9zjxMMl7aTKWiBGUhPGim344G_uo">
+<!--<script src="https://unpkg.com/react@18/umd/react.development.js"></script> 
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>!-->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="script.js"></script>
+<script src="./script.js"></script>
 </head>
 <body>
 <div class="menu">
-	<div class="logo"><img src="img/HGD_watermark.png"></div>
-	<div class="menuButton"><a class="menuButton" id="index"><span class="menuButtonText"></span></a></div>
-	<div class="menuButton"><a class="menuButton" id="portfolio"><span class="menuButtonText"></span></a></div>
+	<Anim class="SlideInFromTop"><div class="logo"><img src="img/HGD_watermark.png"></div></Anim>
+	<div class="menuButton"><a class="menuButton" id="indexButton"><span class="menuButtonText">About Me</span></a></div>
+	<div class="menuButton"><a class="menuButton" id="portfolioButton"><span class="menuButtonText">Portfolio</span></a></div>
+	<div class="contacts">
+		<Anim class="FadeInFromBelow-1"><div class="contactCell"><a class="allmylinks contactsButton" id="allmylinks" target="_blank"><span id="allmylinks"></span></a></div></Anim>
+		<Anim class="FadeInFromBelow-2"><div class="contactCell"><a class="twitter contactsButton" id="twitter" target="_blank"><span id="twitter"></span></a></div></Anim>
+		<Anim class="FadeInFromBelow-3"><div class="contactCell"><a class="github contactsButton" id="github" target="_blank"><span id="github"></span></a></div></Anim>
+		<Anim class="FadeInFromBelow-4"><div class="contactCell"><a class="patreon contactsButton" id="patreon" target="_blank"><span id="patreon"></span></a></div></Anim>
+		<Anim class="FadeInFromBelow-5"><div class="contactCell"><a class="kofi contactsButton" id="kofi" target="_blank"></a></div></Anim>
+		<Anim class="FadeInFromBelow-6"><div class="contactCell"><a class="linkedin contactsButton" id="linkedin" target="_blank"><span id="linkedin"></span></a></div></Anim>
+		<Anim class="FadeInFromBelow-7"><div class="contactCell"><a class="cv_EN contactsButton" id="cv_EN" target="_blank"><span id="cv_EN"></span></a></div></Anim>
+		<Anim class="FadeInFromBelow-8"><div class="contactCell"><a class="cv_PL contactsButton" id="cv_PL" target="_blank"><span id="cv_PL"></span></a></div></Anim>
+	</div>
+
 </div>
 <div class="content"><center>
-	<div class="title"><span id="title"></span></div>
-	<div class="desc"><span id="desc"></span></div>
+	<div class="title"><span id="title">About Me</span></div>
+	<Anim class="FadeInFromBelow"><div class="desc"><span id="desc">
+		<h2>Hey Im <b>Hyper!</b></h2><br>
+		A 19 year old developer<br>
+		that found the passion of creating games<br>
+		at the age of 14 back in 2017<br><br>
+		
+		I created my first game in GMS following a HeartBeast tutorial<br>
+		trying to change some stuff on the way as I learned.<br>
+		I published it on the 31st of August 2017<br>
+		called <i>Best Space Shooter 2017</i> (lmao I know)<br>
+		then up till December 2019 I pushed through and updated<br>
+		it adding a lot of new features and changed the name to <a href='https://gamejolt.com/games/sss17/274659'><i>SSS77</i></a><br><br>
+		
+		From January 2020 I started working in Unity and still am<br>
+		on my biggest project called <a href='https://hypergamesdev.github.io/sss222' target='_blank'><b>SSS222</b></a><br><br>
+		Im also the founder of <a href='https://hyperlemonstudios.github.io' target='_blank'><i>HyperLemonStudios</i></a><br><br>
+		
+		If you want to know more about me the best I can say<br>
+		besides gamedev and gaming in general is<br>
+		Im interested in Japanese culture and the language!<br>
+		Also just playing games, watching anime and <a href='https://shizuikari.jimdosite.com' target='_blank'>singing</a>
+	</span></div></Anim>
 	
-	<div class="contacts">
+	<!--<div class="contacts">
 		<table class="contacts"><tr>
 		<td><a class="allmylinks contactsButton" id="allmylinks" target="_blank"><span id="allmylinks"></span></a></td>
 		<td><a class="twitter contactsButton" id="twitter" target="_blank"><span id="twitter"></span></a></td>
@@ -34,9 +68,9 @@
 		<td><a class="cv_EN contactsButton" id="cv_EN" target="_blank"><span id="cv_EN"></span></a></td>
 		<td><a class="cv_PL contactsButton" id="cv_PL" target="_blank"><span id="cv_PL"></span></a></td>
 		</tr></table>
-	</div>
+	</div>!-->
 	
-	<div class="footer"><footer></footer></div>
+	<div class="footer"><footer>HyperGamesDev® | HyperLemonStudios® | Maciej Krefft | 2017-2022</footer></div>
 </center></div>
 </body>
 </html>
