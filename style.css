@@ -4,10 +4,12 @@ html {
 
 body {
   margin: 0;
-  min-height: 100%;
-  background: linear-gradient(to top, black, black) no-repeat center center fixed;
+  min-height: 100vh;
+  background: linear-gradient(to top, #0A0908, #0A0908) no-repeat center center fixed;
   font-family: "Open Sans", "Arial";
-  color: white;
+  color: #F2F4F3;
+  display: flex;
+  flex-direction: column;
 }
 
 a {
@@ -16,7 +18,7 @@ a {
 }
 
 a:hover {
-  color: #f80000;
+  color: #CC0029;
 }
 
 img {
@@ -31,64 +33,79 @@ button {
 
 .menu {
   width: 100%;
-  height: 14vw;
-  margin-top: -20px;
+  height: 20vw;
+  margin-top: -10px;
   background-color: #f80031;
   display: flex;
+  overflow: hidden;
 }
 
 .logo {
-  float: left;
   height: 14vw;
+  margin-top: 20%;
 }
 
+@media screen and (max-width: 549px) and (min-height: 824px) {
+  .logo img {
+    max-width: 200%;
+  }
+}
 .content {
   height: 100%;
-  /*max-width:75%;*/
   margin-top: 50px;
 }
 
+.menuButtonsCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
 .menuButton {
-  float: left;
   width: 15vw;
   height: 4vw;
-  margin-left: 13%;
-  margin-top: 6%;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 a.menuButton {
   /*float:left;*/
   width: 120%;
   height: 120%;
+  transform: none;
   background-color: rgba(0, 0, 0, 0);
   background-size: 100% 100%;
   border: none;
   text-align: center;
-  font-family: "Impact";
-  color: black;
+  font-family: "Impact", "Arial Black";
+  color: #0A0908;
   letter-spacing: 5px;
   display: inline-block;
   /*position:relative;*/
   vertical-align: middle;
+  transition: color 0.3s, transform 0.3s;
 }
 
 a.menuButton:hover {
-  color: white;
+  color: #F2F4F3;
   transform: scale(110%);
 }
 
 span.menuButtonText {
-  top: 1vw;
   /*right:5vw;*/
   /*margin: 0 auto;*/
   font-size: 2.5vw;
-  position: relative;
 }
 
 .title {
-  font-family: "Impact";
+  font-family: "Impact", "Arial Black";
   letter-spacing: 5px;
   font-size: 50px;
+  text-align: center;
   color: #f80031;
   margin-top: -35px;
   margin-bottom: 40px;
@@ -99,15 +116,11 @@ span.menuButtonText {
     font-size: 2vmax;
     line-height: 2vmax;
     text-align: justify;
-    margin-left: 25%;
-  }
-}
-@media screen and (max-width: 549px) and (min-height: 824px) {
-  .desc {
-    font-size: 2vmax;
-    line-height: 2vmax;
-    text-align: justify;
-    margin-left: 5vw;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
   }
 }
 @media screen and (max-width: 550px) and (max-height: 825px) {
@@ -115,7 +128,40 @@ span.menuButtonText {
     font-size: 3vmax;
     line-height: 3vmax;
     text-align: justify;
-    margin-left: 5vw;
+    width: 100%;
+    margin: 5%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 549px) and (min-height: 824px) {
+  .desc {
+    font-size: 2vmax;
+    line-height: 2vmax;
+    text-align: justify;
+    width: 100%;
+    margin: 5%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  .contacts {
+    margin-top: 20px;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+  }
+  .menuButtonsCont {
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  span.menuButtonText {
+    font-size: 4vw;
   }
 }
 /*@media screen and (max-width: 550px) and (max-height: 825px){
@@ -132,16 +178,16 @@ span.menuButtonText {
 	}
 }*/
 .contacts {
-  margin-left: 5vw;
   margin-top: 20px;
-  display: inline-grid;
-  grid-template-columns: auto auto auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
 }
 
 .contactCell {
   width: 3vw;
   height: 3vw;
-  padding: 0.5vw;
 }
 
 .contactsButton {
@@ -151,6 +197,7 @@ span.menuButtonText {
 .contactsButton img {
   max-width: 100%;
   max-height: 100%;
+  transition: max-width 0.3s, max-height 0.3s;
 }
 
 .contactsButton:hover img {
@@ -158,43 +205,77 @@ span.menuButtonText {
   max-height: 110%;
 }
 
-.footer {
-  margin-top: 4vmin;
-  height: 2%;
-  /*background-color: rgb(49,9,49);*/
-  /*background-size:100% 100%;*/
-  color: white;
+footer {
+  margin-top: auto;
+  padding-top: 5%;
+  color: #22333B;
+  text-align: justify;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
 .portfolio {
-  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
 }
 
 .portfolioList {
   list-style: none;
+  -webkit-padding-start: 0px;
+          padding-inline-start: 0px;
 }
 
-@media screen and (min-width: 770px) {
-  .portfolioRow {
-    width: 33%;
-    height: 100%;
-    float: left;
-  }
+.portfolioRow {
+  width: 33%;
+  height: 100%;
+  float: left;
 }
-@media screen and (max-width: 769px) {
+
+@media screen and (max-width: 425px) {
   .portfolioRow {
-    margin-top: 15%;
+    /*width:33% !important;
+    height:100% !important;
+    background-color: white !important;
+    margin-top:20% !important;
+    clear:both !important;*/
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
   }
   .portfolioRow.Unity {
     margin-top: 0px;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .portfolioRow {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+  }
+  .portfolioRow.Unity {
+    margin-top: 0px;
+  }
+  .portfolioRow li {
+    padding: 5px 0;
   }
 }
 .portfolioTitle {
   font-family: "Arial";
   letter-spacing: 5px;
   font-size: 25px;
-  color: #f80000;
-  margin-bottom: -70px;
+  color: #f80031;
+  margin-top: 70px;
 }
 
 .portfolioElement {
@@ -208,11 +289,11 @@ span.menuButtonText {
   /*width:100%;*/
   /*min-width:100px;*/
   /*padding-left:10%;*/
-  background-image: url(img/timeline.png);
-  background-position: -16vmax -20.5vmin;
+  /*background-image: url(img/timeline.png);
+  background-position:-16vmax -20.5vmin;
   background-size: 86vmax 80vmin;
-  background-repeat: no-repeat;
-  background-origin: content-box;
+  background-repeat:no-repeat;
+  background-origin: content-box;*/
 }
 
 .portfolioButton {
@@ -221,7 +302,14 @@ span.menuButtonText {
   background-color: rgba(0, 0, 0, 0);
   background-size: 100% 100%;
   border: none;
+  border-radius: 5%;
   display: inline-block;
+  transform: none;
+  transition: transform 0.3s;
+}
+
+.portfolioButton:hover {
+  transform: scale(110%);
 }
 
 .portfolioDate {

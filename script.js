@@ -35,13 +35,13 @@ setTimeout(function Setup(){Animate();
 		
 		$("#glitchedoutButton").attr("href","https://github.com/HyperGamesDev/GlitchedOut-GMS-0.1-");
 		$("#glitchedoutDate").html("03.2018 - 11.2019");
-		$("#sss77Button").attr("href","https://github.com/HyperGamesDev/sss77");
+		$("#sss77Button").attr("href","https://gamejolt.com/games/sss17/274659");
 		$("#sss77Date").html("07.2017 - 12.2019");
 
 		$("#rockyPaperSurvButton").attr("href","https://hypergamesdev.github.io/rocky-paper-survivors/");
 		$("#rockyPaperSurvDate").html("03.2022 - ??.????");
 		$("#planetoidButton").attr("href","https://github.com/HyperGamesDev/mc-planetoids");
-		$("#planetoidDate").html("06.2020 - ??.????");
+		$("#planetoidDate").html("06.2020");
 	}
 	
 },100);
