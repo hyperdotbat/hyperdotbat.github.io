@@ -1,6 +1,7 @@
 $mainAccentColor:#f80031;
 $linkColor:$mainAccentColor;
-$linkHoverColor:#CC0029;
+$secondAccentColor:#ECC30B;
+$linkHoverColor:$secondAccentColor;
 $bgColor:#0A0908;
 $textColor:#F2F4F3;
 $textColorDark:#22333B;
@@ -213,101 +214,100 @@ footer{
 }
 .portfolioList{
 	list-style:none;
-    padding-inline-start: 0px;
+	padding:0;
+    padding-inline-start: 0;
 }
 .portfolioRow{
-	width:33%;
+	width:100%;
 	height:100%;
 	float:left;
 }
-@media screen and (max-width: 425px){
-	.portfolioRow{
-		/*width:33% !important;
-		height:100% !important;
-		background-color: white !important;
-		margin-top:20% !important;
-		clear:both !important;*/
-		
-		display: flex;
-		flex-wrap: wrap;
-		margin: 0 auto;
-		padding: 10px;
-		justify-content: center;
-		text-align: center;
-	}
-	.portfolioRow.Unity{
-		margin-top:0px;
-	}
-}
-@media screen and (min-width: 425px) and (max-width: 768px){//Tablet
-	.portfolioRow{
-		display: flex;
-		flex-wrap: wrap;
-		margin: 0 auto;
-		padding: 10px;
-		justify-content: center;
-		text-align: center;
-	}
-	.portfolioRow.Unity{
-		margin-top:0px;
-	}
-	.portfolioRow li{
-		padding: 5px 0;
-	}
-}
 
 
-.portfolioTitle{
-	font-family: "Arial";
-	letter-spacing:5px;
-	font-size:25px;
-	color:$mainAccentColor;
-	margin-top:70px;
-}
 .portfolioElement{
-	width:26vmax;
-	/*min-width:30vw;*/
-	max-width:40vmax;
-	height:14vmax;
-	max-height:20vmax;
-	/*float:center;*/
-	margin-top:80px;
-	/*width:100%;*/
-	/*min-width:100px;*/
-	/*padding-left:10%;*/
-	/*background-image: url(img/timeline.png);
-	background-position:-16vmax -20.5vmin;
-	background-size: 86vmax 80vmin;
-	background-repeat:no-repeat;
-	background-origin: content-box;*/
+	display: flex;
+	align-items: center;
+	width: 100%;
+	min-height: 200px;
+	margin-bottom: 20px;
+	margin-left: 40px;
+	overflow: hidden;
 }
 .portfolioButton{
-	width:100%;
-	height:100%;
+	flex:0 0 auto;
+	width:30vw;
+	height:20vw;
+	display: flex;
+	display:inline-block;
+	justify-content: center;
+	align-items: center;
+	margin-top: 70px;
+
 	background-color:rgba(0,0,0,0);
 	background-size:100% 100%;
 	border:none;
 	border-radius: 5%;
-	display:inline-block;
 
-	transform: none;
+	transform: scale(0.9);
 	transition: transform 0.3s;
 }
 .portfolioButton:hover{
-	transform: scale(110%);
+	transform: scale(1);
 }
-.portfolioDate{font-size:1.4vmax;}
-.sss222.portfolioButton{background-image:url("img/sss222Thumbnail.png");}
-.glitchout.portfolioButton{background-image:url("img/glitchoutThumbnail.gif");}
-.driftake.gamesButton{background-image:url("img/driftakeThumbnail.png");}
-.rustyropes.gamesButton{background-image:url("img/rustyropesThumbnail.png");}
+.portfolioButton img{
+	max-width: 100%;
+	max-height: 100%;
+	object-fit: cover;
+}
+.portfolio-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width:60%;
+	padding-right: 100px;
+}
+.portfolio-title {
+	font-family: "Arial";
+	letter-spacing:5px;
+	font-size:3vw;
+	text-align: center;
+	color:$mainAccentColor;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+.portfolio-description{
+	flex: 1;
+	font-size: 2.5vw;
+	margin: 0;
+	padding-left: 100px;
+}
 
-.glitchedout.portfolioButton{background-image:url("img/glitchedoutThumbnailBlack.png");}
-.sss77.portfolioButton{background-image:url("img/sss77Thumbnail.png");}
+@media screen and (max-width: 800px){
+	.portfolioElement{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.portfolioButton{
+		margin-right: 40px;
+	}
 
-.rockyPaperSurv.portfolioButton{background-image:url("img/rockyPaperSurv.png");}
-.planetoid.portfolioButton{background-image:url("img/planetoids.png");}
-
+	.portfolio-content{
+		display: block;
+		margin-top:10px;
+		margin-left:0;
+		margin-right:0;
+		padding-right: 0;
+  	}
+	.portfolio-title{
+	  	font-size: 4vw;
+	}
+	.portfolio-description{
+	  	font-size: 3vw;
+		margin-left: 0;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
 
 
 Anim{}

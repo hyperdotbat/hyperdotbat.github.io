@@ -13,6 +13,8 @@ setTimeout(function Setup(){Animate();
 	$("#allmylinks").attr("href","https://hyperr.carrd.co");
 	$("#twitter").html("<img src='img/twitter.png'>");
 	$("#twitter").attr("href","https://twitter.com/HyperrGamesDev");
+	$("#itch").html("<img src='img/itch.png'>");
+	$("#itch").attr("href","https://hypergamesdev.itch.io");
 	$("#github").html("<img src='img/github.png'>");
 	$("#github").attr("href","https://github.com/HyperGamesDev");
 	$("#patreon").html("<img src='img/patreon.png'>");
@@ -28,20 +30,19 @@ setTimeout(function Setup(){Animate();
 	$("#cv_PL").attr("href","redirects/cv_PL.html");
 
 	if(page=='portfolio.html'){
+		$("#chromabounceButton").attr("href","https://hypergamesdev.itch.io/chromabounce");
+		$("#chromabounceTitle").attr("href","https://hypergamesdev.itch.io/chromabounce");
 		$("#sss222Button").attr("href","https://hypergamesdev.github.io/sss222");
-		$("#sss222date").html("03.2020 - ??.????");
+		$("#sss222Title").attr("href","https://hypergamesdev.github.io/sss222");
 		$("#glitchoutButton").attr("href","https://hypergamesdev.github.io/glitchout");
-		$("#glitchoutDate").html("06.2021 - ??.????");
-		
-		$("#glitchedoutButton").attr("href","https://github.com/HyperGamesDev/GlitchedOut-GMS-0.1-");
-		$("#glitchedoutDate").html("03.2018 - 11.2019");
-		$("#sss77Button").attr("href","https://gamejolt.com/games/sss17/274659");
-		$("#sss77Date").html("07.2017 - 12.2019");
+		$("#glitchoutTitle").attr("href","https://hypergamesdev.github.io/glitchout");
 
-		$("#rockyPaperSurvButton").attr("href","https://hypergamesdev.github.io/rocky-paper-survivors/");
-		$("#rockyPaperSurvDate").html("03.2022 - ??.????");
-		$("#planetoidButton").attr("href","https://github.com/HyperGamesDev/mc-planetoids");
-		$("#planetoidDate").html("06.2020");
+		$("#rpsTitle").attr("href","https://hypergamesdev.github.io/rocky-paper-survivors/");
+		$("#rpsButton").attr("href","https://hypergamesdev.github.io/rocky-paper-survivors/");
+		$("#sss77Title").attr("href","https://gamejolt.com/games/sss17/274659");
+		$("#sss77Button").attr("href","https://gamejolt.com/games/sss17/274659");
+		$("#planetoidsTitle").attr("href","https://github.com/HyperGamesDev/mc-planetoids");
+		$("#planetoidsButton").attr("href","https://github.com/HyperGamesDev/mc-planetoids");
 	}
 	
 },100);
