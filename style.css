@@ -31,6 +31,10 @@ button {
   cursor: pointer;
 }
 
+Yellow {
+  color: #ECC30B;
+}
+
 .menu {
   width: 100%;
   height: 20vw;
@@ -102,9 +106,12 @@ span.menuButtonText {
 }
 
 .title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
   font-family: "Impact", "Arial Black";
   letter-spacing: 5px;
-  font-size: 50px;
+  font-size: 5vw;
   text-align: center;
   color: #f80031;
   margin-top: -35px;
@@ -291,6 +298,15 @@ footer {
   color: #f80031;
   margin-top: 10px;
   margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: none;
+  transition: transform 0.3s;
+}
+
+.portfolio-title:hover {
+  transform: scale(1.1);
 }
 
 .portfolio-description {
@@ -298,6 +314,16 @@ footer {
   font-size: 2.5vw;
   margin: 0;
   padding-left: 100px;
+  text-align: justify;
+}
+
+.portfolioCategoryTitle {
+  font-family: "Arial";
+  letter-spacing: 5px;
+  font-size: 3vw;
+  text-align: center;
+  color: #f80031;
+  padding-top: 50px;
 }
 
 @media screen and (max-width: 800px) {
@@ -343,6 +369,16 @@ footer {
 }
 
 .SlideInFromTop.is-visible {
+  transform: none;
+}
+
+.SlideInFromTop2 {
+  display: flex;
+  transform: translateY(-120%);
+  transition: transform 0.3s;
+}
+
+.SlideInFromTop2.is-visible {
   transform: none;
 }
 
@@ -476,4 +512,37 @@ FadeInSection{
 	opacity: 1;
 	transform: none;
 	visibility: visible;
-}*//*# sourceMappingURL=style.css.map */
+}*/
+.line-container {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.line {
+  position: relative;
+  display: inline-block;
+  width: 40%;
+  height: 0px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.line::before,
+.line::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 60%;
+  height: 2px;
+  background-color: #ECC30B;
+}
+
+.line::before {
+  right: 100%;
+  margin-right: 10px;
+}
+
+.line::after {
+  left: 100%;
+  margin-left: 10px;
+}/*# sourceMappingURL=style.css.map */

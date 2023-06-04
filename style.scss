@@ -21,6 +21,7 @@ a{text-decoration:none;color:$linkColor;}
 a:hover{color:$linkHoverColor;}
 img{max-width:100%;max-height:100%;}
 button{font-family:"Arial", "Open Sans";cursor:pointer;}
+Yellow{color:$secondAccentColor}
 
 .menu{
 	width:100%;
@@ -85,9 +86,12 @@ span.menuButtonText{
 	font-size:2.5vw;
 }
 .title{
+	width:100%;
+	display: flex;
+	justify-content: center;
 	font-family: "Impact", "Arial Black";
 	letter-spacing:5px;
-	font-size:50px;
+	font-size:5vw;
 	text-align: center;
 	color:$mainAccentColor;
 	margin-top:-35px;
@@ -259,14 +263,14 @@ footer{
 	max-height: 100%;
 	object-fit: cover;
 }
-.portfolio-content {
+.portfolio-content{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	width:60%;
 	padding-right: 100px;
 }
-.portfolio-title {
+.portfolio-title{
 	font-family: "Arial";
 	letter-spacing:5px;
 	font-size:3vw;
@@ -274,12 +278,31 @@ footer{
 	color:$mainAccentColor;
 	margin-top: 10px;
 	margin-bottom: 5px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transform: none;
+	transition: transform 0.3s;
+}
+.portfolio-title:hover{
+	transform: scale(1.1);
 }
 .portfolio-description{
 	flex: 1;
 	font-size: 2.5vw;
 	margin: 0;
 	padding-left: 100px;
+	text-align: justify;
+}
+
+.portfolioCategoryTitle{
+	font-family: "Arial";
+	letter-spacing:5px;
+	font-size:3vw;
+	text-align: center;
+	color:$mainAccentColor;
+	padding-top: 50px;
 }
 
 @media screen and (max-width: 800px){
@@ -309,7 +332,6 @@ footer{
 	}
 }
 
-
 Anim{}
 .FadeInFromBelow {
 	opacity: 0;
@@ -329,6 +351,14 @@ Anim{}
 .SlideInFromTop.is-visible{
 	transform: none;
 }
+.SlideInFromTop2 {
+	display:flex;
+	transform: translateY(-120%);
+	transition: transform 0.3s;
+}
+.SlideInFromTop2.is-visible{
+	transform: none;
+}
 
 @for $i from 1 through 10 {
 	.FadeInFromBelow-#{$i} {
@@ -340,7 +370,7 @@ Anim{}
 		opacity: 1;
 		transform: none;
 	}
-  }
+}
 /*$fadeInLength:0.6s;
 FadeInSection{
 	animation: fadein $fadeInLength;
@@ -362,3 +392,38 @@ FadeInSection{
 	transform: none;
 	visibility: visible;
 }*/
+
+.line-container {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+  }
+  
+  .line {
+	position: relative;
+	display: inline-block;
+	width: 40%;
+	height: 0px;
+	background-color: rgba(0,0,0,0);
+  }
+  
+  .line::before,
+  .line::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	width: 60%;
+	height: 2px;
+	background-color: $secondAccentColor;
+  }
+  
+  .line::before {
+	right: 100%;
+	margin-right: 10px;
+  }
+  
+  .line::after {
+	left: 100%;
+	margin-left: 10px;
+  }
+  

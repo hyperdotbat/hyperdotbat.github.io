@@ -19,6 +19,8 @@ setTimeout(function Setup(){Animate();
 	$("#github").attr("href","https://github.com/HyperGamesDev");
 	$("#patreon").html("<img src='img/patreon.png'>");
 	$("#patreon").attr("href","https://patreon.com/HyperGamesDev");
+	$("#fiverr").html("<img src='img/fiverr.png'>");
+	$("#fiverr").attr("href","https://fiverr.com/HyperGamesDev");
 	$("#kofi").html("<img src='img/kofi.png'>");
 	$("#kofi").attr("href","https://buymeacoffee.com/HyperGamesDev");
 	$("#linkedin").html("<img src='img/linkedin.png'>");
@@ -47,8 +49,8 @@ setTimeout(function Setup(){Animate();
 	
 },100);
 
-function redirect_cvEN(){window.open("https://raw.githubusercontent.com/HyperGamesDev/HyperGamesDev/master/assets/CV-HyperGamesDev_EN.png","_self");}
-function redirect_cvPL(){window.open("https://raw.githubusercontent.com/HyperGamesDev/HyperGamesDev/master/assets/CV-HyperGamesDev_PL.png","_self");}
+function redirect_cvEN(){window.open("https://raw.githubusercontent.com/HyperGamesDev/HyperGamesDev/master/assets/CV-HyperGamesDev_EN.pdf","_self");}
+function redirect_cvPL(){window.open("https://raw.githubusercontent.com/HyperGamesDev/HyperGamesDev/master/assets/CV-HyperGamesDev_PL.pdf","_self");}
 
 function Animate(){
 	$("Anim").each(function(){$(this).addClass("is-visible")});
