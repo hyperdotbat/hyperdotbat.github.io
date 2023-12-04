@@ -32,8 +32,8 @@ setTimeout(function Setup(){Animate();
 	$("#cv_PL").attr("href","redirects/cv_PL.html");
 
 	if(page=='portfolio.html'){
-		$("#chromabounceButton").attr("href","https://hypergamesdev.itch.io/chromabounce");
-		$("#chromabounceTitle").attr("href","https://hypergamesdev.itch.io/chromabounce");
+		$("#logicbounceButton").attr("href","https://hypergamesdev.itch.io/logic-bounce");
+		$("#logicbounceTitle").attr("href","https://hypergamesdev.itch.io/logic-bounce");
 		$("#sss222Button").attr("href","https://hypergamesdev.github.io/sss222");
 		$("#sss222Title").attr("href","https://hypergamesdev.github.io/sss222");
 		$("#glitchoutButton").attr("href","https://hypergamesdev.github.io/glitchout");
@@ -43,6 +43,8 @@ setTimeout(function Setup(){Animate();
 		$("#rpsButton").attr("href","https://hypergamesdev.github.io/rocky-paper-survivors/");
 		$("#sss77Title").attr("href","https://gamejolt.com/games/sss17/274659");
 		$("#sss77Button").attr("href","https://gamejolt.com/games/sss17/274659");
+		$("#diamoCloneTitle").attr("href","https://github.com/HyperGamesDev/diamo-clone");
+		$("#diamoCloneButton").attr("href","https://github.com/HyperGamesDev/diamo-clone");
 		$("#planetoidsTitle").attr("href","https://github.com/HyperGamesDev/mc-planetoids");
 		$("#planetoidsButton").attr("href","https://github.com/HyperGamesDev/mc-planetoids");
 	}
