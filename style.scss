@@ -1,10 +1,10 @@
-$mainAccentColor:#f80031;
+$mainAccentColor:#00ff6e;
 $linkColor:$mainAccentColor;
-$secondAccentColor:#ECC30B;
+$secondAccentColor:#b7ffbf;
 $linkHoverColor:$secondAccentColor;
 $bgColor:#0A0908;
 $textColor:#F2F4F3;
-$textColorDark:#22333B;
+$textColorDark:#4e4e4e;
 $buttonColor:#0A0908;
 $buttonColorHover:#F2F4F3;
 
@@ -199,6 +199,7 @@ span.menuButtonText{
 footer{
 	margin-top: auto;
 	padding-top: 5%;
+	padding-bottom: 1%;
 	color: $textColorDark;
 	text-align:justify;
 	width:100%;
