@@ -6,25 +6,25 @@ setTimeout(function Setup(){Animate();
 	let path=window.location.pathname;
 	let page=path.split("/").pop();
 	$("#indexButton").attr("href","index.html");
-	$("#portfolioButton").attr("href","portfolio.html");
+	$("#aboutmeButton").attr("href","aboutme.html");
 	
 
 	$("#allmylinks").html("<img src='img/carrd.png'>");
-	$("#allmylinks").attr("href","https://haipadev.carrd.co");
+	$("#allmylinks").attr("href","https://hyperdotbat.carrd.co");
 	$("#twitter").html("<img src='img/twitter.png'>");
-	$("#twitter").attr("href","https://twitter.com/HaipaaDev");
+	$("#twitter").attr("href","https://twitter.com/hyperdotbat");
 	$("#itch").html("<img src='img/itch.png'>");
-	$("#itch").attr("href","https://haipadev.itch.io");
+	$("#itch").attr("href","https://hyperdotbat.itch.io");
 	$("#github").html("<img src='img/github.png'>");
-	$("#github").attr("href","https://github.com/HaipaDev");
+	$("#github").attr("href","https://github.com/hyperdotbat");
 	$("#patreon").html("<img src='img/patreon.png'>");
-	$("#patreon").attr("href","https://patreon.com/HaipaDev");
+	$("#patreon").attr("href","https://patreon.com/hyperdotbat");
 	$("#fiverr").html("<img src='img/fiverr.png'>");
 	$("#fiverr").attr("href","https://fiverr.com/HyperGamesDev");
 	$("#kofi").html("<img src='img/kofi.png'>");
 	$("#kofi").attr("href","https://buymeacoffee.com/HaipaDev");
 	$("#linkedin").html("<img src='img/linkedin.png'>");
-	$("#linkedin").attr("href","https://linkedin.com/in/haipadev");
+	$("#linkedin").attr("href","https://linkedin.com/in/hyperdotbat");
 
 	$("#cv_EN").html("<img src='img/cv_en.png'>");
 	$("#cv_EN").attr("href","redirects/cv_EN.html");
@@ -32,27 +32,27 @@ setTimeout(function Setup(){Animate();
 	$("#cv_PL").attr("href","redirects/cv_PL.html");
 
 	if(page=='portfolio.html'){
-		$("#logicbounceButton").attr("href","https://haipadev.itch.io/logic-bounce");
-		$("#logicbounceTitle").attr("href","https://haipadev.itch.io/logic-bounce");
-		$("#sss222Button").attr("href","https://haipadev.github.io/sss222");
-		$("#sss222Title").attr("href","https://haipadev.github.io/sss222");
-		$("#glitchoutButton").attr("href","https://haipadev.github.io/glitchout");
-		$("#glitchoutTitle").attr("href","https://haipadev.github.io/glitchout");
+		$("#logicbounceButton").attr("href","https://hyperdotbat.itch.io/logic-bounce");
+		$("#logicbounceTitle").attr("href","https://hyperdotbat.itch.io/logic-bounce");
+		$("#sss222Button").attr("href","https://hyperdotbat.github.io/sss222");
+		$("#sss222Title").attr("href","https://hyperdotbat.github.io/sss222");
+		$("#glitchoutButton").attr("href","https://hyperdotbat.github.io/glitchout");
+		$("#glitchoutTitle").attr("href","https://hyperdotbat.github.io/glitchout");
 
-		$("#rpsTitle").attr("href","https://haipadev.github.io/rocky-paper-survivors/");
-		$("#rpsButton").attr("href","https://haipadev.github.io/rocky-paper-survivors/");
+		$("#rpsTitle").attr("href","https://hyperdotbat.github.io/rocky-paper-survivors/");
+		$("#rpsButton").attr("href","https://hyperdotbat.github.io/rocky-paper-survivors/");
 		$("#sss77Title").attr("href","https://gamejolt.com/games/sss17/274659");
 		$("#sss77Button").attr("href","https://gamejolt.com/games/sss17/274659");
-		$("#diamoCloneTitle").attr("href","https://github.com/HaipaDev/diamo-clone");
-		$("#diamoCloneButton").attr("href","https://github.com/HaipaDev/diamo-clone");
-		$("#planetoidsTitle").attr("href","https://github.com/HaipaDev/mc-planetoids");
-		$("#planetoidsButton").attr("href","https://github.com/HaipaDev/mc-planetoids");
+		$("#diamoCloneTitle").attr("href","https://github.com/hyperdotbat/diamo-clone");
+		$("#diamoCloneButton").attr("href","https://github.com/hyperdotbat/diamo-clone");
+		$("#planetoidsTitle").attr("href","https://github.com/hyperdotbat/mc-planetoids");
+		$("#planetoidsButton").attr("href","https://github.com/hyperdotbat/mc-planetoids");
 	}
 	
 },100);
 
-function redirect_cvEN(){window.open("https://raw.githubusercontent.com/HaipaDev/HaipaDev//master/assets/CV-HaipaDev_EN.pdf","_self");}
-function redirect_cvPL(){window.open("https://raw.githubusercontent.com/HaipaDev/HaipaDev//master/assets/CV-HaipaDev_PL.pdf","_self");}
+function redirect_cvEN(){window.open("https://raw.githubusercontent.com/hyperdotbat/hyperdotbat/master/assets/CV-hyperdotbat_EN.pdf","_self");}
+function redirect_cvPL(){window.open("https://raw.githubusercontent.com/hyperdotbat/hyperdotbat/master/assets/CV-hyperdotbat_PL.pdf","_self");}
 
 function Animate(){
 	$("Anim").each(function(){$(this).addClass("is-visible")});
